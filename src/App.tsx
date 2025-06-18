@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import BiasChecker from "./pages/BiasChecker";
+import ArticleAnalyzer from "./pages/ArticleAnalyzer";
 import MediaVerifier from "./pages/MediaVerifier";
 import FactCheckLookup from "./pages/FactCheckLookup";
 
@@ -20,7 +20,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/bias-checker" element={<BiasChecker />} />
+          <Route path="/article-analyzer" element={<ArticleAnalyzer />} />
           <Route path="/media-verifier" element={<MediaVerifier />} />
           <Route path="/fact-check-lookup" element={<FactCheckLookup />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

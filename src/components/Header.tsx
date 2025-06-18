@@ -11,7 +11,7 @@ const Header = () => (
       </div>
       <nav className="hidden md:flex gap-7">
         <a href="/" className="text-muted-foreground hover:text-primary font-medium transition-colors">Home</a>
-        <a href="/bias-checker" className="text-muted-foreground hover:text-primary font-medium transition-colors">News Bias Checker</a>
+        <a href="/article-analyzer" className="text-muted-foreground hover:text-primary font-medium transition-colors">Article Analyzer</a>
         <a href="/media-verifier" className="text-muted-foreground hover:text-primary font-medium transition-colors">Media Verifier</a>
         <a href="/fact-check-lookup" className="text-muted-foreground hover:text-primary font-medium transition-colors">Fact-Check Lookup</a>
       </nav>

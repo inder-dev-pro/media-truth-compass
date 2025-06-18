@@ -37,14 +37,14 @@ const Index = () => {
           <span>NewsCredible</span>
         </h1>
         <h2 className="text-lg md:text-xl text-muted-foreground text-center mb-12 max-w-2xl">
-          The one-stop AI-powered toolkit for media authenticity and news bias detection.
+          The one-stop AI-powered toolkit for media authenticity and news analysis.
         </h2>
         <section className="grid grid-cols-1 md:grid-cols-3 gap-5 w-full animate-fade-in">
           <FeatureCard
-            title="News Bias Checker"
-            description="Analyze headlines, articles, or quotes for political/ideological bias and reliability. Supports left, right, center, sensationalist, and neutral detection."
-            icon={<span className="text-blue-500">🧠</span>}
-            href="/bias-checker"
+            title="Article Analyzer"
+            description="Analyze news articles by URL for bias, credibility, sentiment, and factual accuracy. Our AI provides comprehensive insights into article quality and reliability."
+            icon={<span className="text-blue-500">📰</span>}
+            href="/article-analyzer"
           />
           <FeatureCard
             title="Media Verifier"
